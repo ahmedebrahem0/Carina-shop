@@ -1,0 +1,12 @@
+.bg {
+    background-color: rgb(18, 102, 246);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+.home h1 {
+    font-family: Herr Von Muellerhoff !important;
+}
+.product-item {
+    height: 390px !important;
+}

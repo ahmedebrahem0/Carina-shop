@@ -2,12 +2,12 @@ import React from "react";
 import "animate.css";
 // import "../../index"
 import img1 from "../../img/vanilla.jpg";
-import img2 from "../../img/Home.jpg";
-// import img3 from "../../img/home2.jpg";
-import img3 from "../../img/snapedit-2_1712092134017.png";
-
+import img4 from "../../img/Home.jpg";
+import { BsCircleFill } from "react-icons/bs";
 import "./Home.module.css";
+import { BsArrowUp } from "react-icons/bs";
 export default function Products() {
+
   let api = [
     {
       item_id: "8568666620144",
@@ -18,7 +18,12 @@ export default function Products() {
       item_variant: "45422697152752",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-121_grande.jpg?v=1710755652",
-      productURL: "https://carinawear.com/products/viscose-basic-shirt",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
     },
 
     {
@@ -27,6 +32,9 @@ export default function Products() {
       price: "799.99",
       item_brand: "Carinawear",
       item_category: "XXL XL ",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4:<BsCircleFill className="text-light border rounded border rounded" />,
       item_variant: "45401469386992",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-074_f6b8a1b0-cdbb-4d57-a861-562a9fb660bb_grande.jpg?v=1710674970",
@@ -41,6 +49,9 @@ export default function Products() {
       item_brand: "Carinawear",
       item_category: "S M XL",
       item_variant: "45401468961008",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-085_grande.jpg?v=1710674785",
       productURL: "https://carinawear.com/products/collared-neck-shirt-dress",
@@ -53,6 +64,9 @@ export default function Products() {
       item_brand: "Carinawear",
       item_category: "2XL XL",
       item_variant: "45401467420912",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-054_grande.jpg?v=1710674700",
       productURL: "https://carinawear.com/products/satin-cargo-pants",
@@ -65,6 +79,11 @@ export default function Products() {
       item_brand: "Carinawear",
       item_category: "XXL 3XL",
       item_variant: "45331712508144",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-013_grande.jpg?v=1710666968",
       productURL: "https://carinawear.com/products/zebra-pattern-crepe-pants",
@@ -76,6 +95,9 @@ export default function Products() {
       price: "1099.99",
       item_brand: "Carinawear",
       item_category: "XL S",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-light border rounded" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45331711951088",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-006_a5384412-2b07-447b-b45f-ffc3b8f77f81_grande.jpg?v=1710667130",
@@ -87,6 +109,9 @@ export default function Products() {
       item_name: "Gabardine Hip Length",
       price: "1299.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "XXL XL",
       item_variant: "45311109103856",
       imageURL:
@@ -99,6 +124,9 @@ export default function Products() {
       item_name: "Linen Hooded Long Kimono",
       price: "1399.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: <BsCircleFill className="text-light border rounded" />,
       item_category: "2XL M",
       item_variant: "45310765302000",
       imageURL:
@@ -111,6 +139,9 @@ export default function Products() {
       item_name: "Summer Vibes Printed ",
       price: "799.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "XL M",
       item_variant: "45202884231408",
       imageURL:
@@ -125,6 +156,9 @@ export default function Products() {
       price: "1599.99",
       item_brand: "Carinawear",
       item_category: "3XL 2XL",
+      color1: <BsCircleFill className="text-primary" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-success" />,
       item_variant: "45202880889072",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-019_2c2c5452-d757-4d0d-aff3-5aed2f97533f_grande.jpg?v=1710412901",
@@ -136,6 +170,8 @@ export default function Products() {
       item_name: "Wide Strap Ribbed Dress",
       price: "499.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
       item_category: "S M",
       item_variant: "45180165062896",
       imageURL:
@@ -149,9 +185,13 @@ export default function Products() {
       price: "799.99",
       item_brand: "Carinawear",
       item_category: "XXL XL",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-light border rounded" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45180159656176",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-011_0b2f1e83-d5a1-427c-b636-7ec6eb346755_grande.jpg?v=1710412603",
+
       productURL: "https://carinawear.com/products/black-lounge-jogger",
     },
 
@@ -160,6 +200,11 @@ export default function Products() {
       item_name: "Lounge T-Shirt with Tulle",
       price: "699.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "3XL 2XL",
       item_variant: "45180157231344",
       imageURL:
@@ -173,6 +218,8 @@ export default function Products() {
       price: "999.99",
       item_brand: "Carinawear",
       item_category: "XL L",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
       item_variant: "45180155592944",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-129_grande.jpg?v=1710412358",
@@ -186,6 +233,9 @@ export default function Products() {
       item_brand: "Carinawear",
       item_category: "",
       item_variant: "45180154609904",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-light border rounded" />,
+      color3: <BsCircleFill className="text-primary" />,
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-105_grande.jpg?v=1710412358",
       productURL:
@@ -196,6 +246,9 @@ export default function Products() {
       item_id: "8533127102704",
       item_name: "Chest Print Lounge ",
       price: "799.99",
+      color1: <BsCircleFill className="text-primary" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-success" />,
       item_brand: "Carinawear",
       item_category: "XL M",
       item_variant: "45180154446064",
@@ -210,6 +263,11 @@ export default function Products() {
       price: "799.99",
       item_brand: "Carinawear",
       item_category: "L M",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_variant: "45180154282224",
       imageURL:
         "https://carinawear.com/cdn/shop/files/carina20248972_grande.jpg?v=1710675548",
@@ -222,6 +280,9 @@ export default function Products() {
       price: "999.99",
       item_brand: "Carinawear",
       item_category: " 2XL XL ",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45180154151152",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240313-202403013-059_grande.jpg?v=1710665332",
@@ -233,6 +294,9 @@ export default function Products() {
       item_name: "Tweety Printed T-Shirt",
       price: "599.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-primary" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-success" />,
       item_category: "L M",
       item_variant: "45180153987312",
       imageURL:
@@ -246,6 +310,9 @@ export default function Products() {
       price: "799.99",
       item_brand: "Carinawear",
       item_category: "XL L",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45180152545520",
       imageURL:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-186_grande.jpg?v=1710412245",
@@ -257,6 +324,11 @@ export default function Products() {
       item_name: "Blue Denim Long Shirt",
       price: "1499.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-success" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "M S",
       item_variant: "45180152185072",
       imageURL:
@@ -270,6 +342,11 @@ export default function Products() {
       price: "1499.99",
       item_brand: "Carinawear",
       item_category: "3XL 2XL",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_variant: "45180152021232",
       imageURL:
         "https://carinawear.com/cdn/shop/files/carina3.high-12_grande.jpg?v=1710412200",
@@ -281,6 +358,9 @@ export default function Products() {
       item_name: "Beige Cotton Lounge ",
       price: "999.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-light border rounded" />,
+      color4: <BsCircleFill className="text-info border rounded" />,
       item_category: "XL L",
       item_variant: "45180151824624",
       imageURL:
@@ -293,6 +373,11 @@ export default function Products() {
       item_name: "Hooded Denim Jacket",
       price: "2299.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "XL L",
       item_variant: "45180151660784",
       imageURL:
@@ -306,6 +391,9 @@ export default function Products() {
       price: "1399.99",
       item_brand: "Carinawear",
       item_category: "S M",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: <BsCircleFill className="text-success border rounded" />,
       item_variant: "45180151398640",
       imageURL:
         "https://carinawear.com/cdn/shop/files/carina3.high-11_grande.jpg?v=1710412147",
@@ -319,6 +407,11 @@ export default function Products() {
       price: "1099.99",
       item_brand: "Carinawear",
       item_category: "2XL XL",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_variant: "45180150546672",
       imageURL:
         "https://carinawear.com/cdn/shop/files/carina3.high-32_grande.jpg?v=1710412146",
@@ -331,6 +424,9 @@ export default function Products() {
       item_name: "Printed Dress with Front Slit",
       price: "1299.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-light border rounded" />,
+      color4: <BsCircleFill className="text-warning border rounded" />,
       item_category: "3XL 2XL",
       item_variant: "45114882457840",
       imageURL:
@@ -344,6 +440,9 @@ export default function Products() {
       item_name: "Back Eye Embroidery ",
       price: "1199.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-light border rounded" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "XL L",
       item_variant: "45114882162928",
       imageURL:
@@ -356,6 +455,9 @@ export default function Products() {
       item_name: "Leopard Print Chiffon Kimono",
       price: "1299.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-light border rounded" />,
+      color2: <BsCircleFill className="text-dark" />,
+      // color3: <BsCircleFill className="text-primary" />,
       item_category: "L M",
       item_variant: "45070598537456",
       imageURL:
@@ -370,6 +472,9 @@ export default function Products() {
       price: "799.99",
       item_brand: "Carinawear",
       item_category: " S M",
+      color1: <BsCircleFill className="text-info" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45070598406384",
       imageURL:
         "https://carinawear.com/cdn/shop/files/55322-34-S_4_grande.jpg?v=1710411780",
@@ -382,6 +487,9 @@ export default function Products() {
       item_name: "Draped Chiffon Kimono Shirt",
       price: "1199.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-warning" />,
+      color2: <BsCircleFill className="text-light border rounded" />,
+      color3: <BsCircleFill className="text-info" />,
       item_category: "3XL 2XL",
       item_variant: "45070597947632",
       imageURL:
@@ -394,6 +502,9 @@ export default function Products() {
       item_name: "Striped Full Placket Long Shirt",
       price: "899.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "S L",
       item_variant: "45070597685488",
       imageURL:
@@ -407,6 +518,11 @@ export default function Products() {
       item_name: "Georgette Loose Fit Dress",
       price: "1299.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "M L",
       item_variant: "45070597095664",
       imageURL:
@@ -418,6 +534,11 @@ export default function Products() {
       item_id: "8496612933872",
       item_name: "Voile Straight Cut Pants",
       price: "799.99",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_brand: "Carinawear",
       item_category: "XL L",
       item_variant: "45070596997360",
@@ -432,6 +553,9 @@ export default function Products() {
       price: "1399.99",
       item_brand: "Carinawear",
       item_category: "2XL 3XL ",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_variant: "45070586446064",
       imageURL:
         "https://carinawear.com/cdn/shop/files/ramadan-4_carinasize_grande.jpg?v=1710411674",
@@ -444,6 +568,9 @@ export default function Products() {
       item_name: "Slip On Hooded Dress",
       price: "1299.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-success" />,
+      color3: <BsCircleFill className="text-light border rounded" />,
       item_category: "2XL  3XL",
       item_variant: "45070586085616",
       imageURL:
@@ -456,6 +583,9 @@ export default function Products() {
       item_name: "Printed Flowy Kimono",
       price: "999.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-warning" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-info" />,
       item_category: "L M",
       item_variant: "45070585889008",
       imageURL:
@@ -468,6 +598,9 @@ export default function Products() {
       item_name: "3 Colors Oversized Kimono",
       price: "999.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-dark" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-warning" />,
       item_category: "M S",
       item_variant: "45070585856240",
       imageURL:
@@ -480,6 +613,9 @@ export default function Products() {
       item_name: "Striped Dress with Hooded ",
       price: "1299.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-light border rounded" />,
+      color2: <BsCircleFill className="text-dark" />,
+      // color3: <BsCircleFill className="text-primary" />,
       item_category: "L M",
       item_variant: "45070585626864",
       imageURL:
@@ -495,6 +631,11 @@ export default function Products() {
       item_brand: "Carinawear",
       item_category: "XL M",
       item_variant: "45070585528560",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       imageURL:
         "https://carinawear.com/cdn/shop/files/55106-15-S-1_grande.jpg?v=1710411633",
       productURL:
@@ -505,6 +646,9 @@ export default function Products() {
       item_id: "8495007891696",
       item_name: "One Size Poncho Shirt",
       price: "799.99",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-light border rounded" />,
       item_brand: "Carinawear",
       item_category: "M S",
       item_variant: "45065534374128",
@@ -518,6 +662,9 @@ export default function Products() {
       item_name: "Black Voile Sleeveless ",
       price: "299.99",
       item_brand: "Carinawear",
+      color3: <BsCircleFill className="text-primary" />,
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
       item_category: "3XL 2XL",
       item_variant: "45065534111984",
       imageURL:
@@ -532,6 +679,8 @@ export default function Products() {
       price: "899.99",
       item_brand: "Carinawear",
       item_category: "2XL XL",
+      color1: <BsCircleFill className="text-info" />,
+      color2: <BsCircleFill className="text-success" />,
       item_variant: "45065533915376",
       imageURL:
         "https://carinawear.com/cdn/shop/files/55130-99-S_5_grande.jpg?v=1710411557",
@@ -544,6 +693,9 @@ export default function Products() {
       price: "1199.99",
       item_brand: "Carinawear",
       item_category: "S M",
+      color1: <BsCircleFill className="text-dark" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-warning" />,
       item_variant: "45065532997872",
       imageURL:
         "https://carinawear.com/cdn/shop/files/55171-01-S_5_grande.jpg?v=1710411483",
@@ -556,6 +708,9 @@ export default function Products() {
       item_name: "Colored V-Neck Dress",
       price: "1399.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-light border rounded" />,
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "M L",
       item_variant: "45065532866800",
       imageURL:
@@ -568,6 +723,11 @@ export default function Products() {
       item_name: "Pleated Open Neckline ",
       price: "1299.99",
       item_brand: "Carinawear",
+      color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "L S",
       item_variant: "45065532768496",
       imageURL:
@@ -581,6 +741,9 @@ export default function Products() {
       item_name: "V-Neck Wide Leg Jumpsuit",
       price: "999.99",
       item_brand: "Carinawear",
+      color1: <BsCircleFill className="text-danger" />,
+      color2: <BsCircleFill className="text-dark" />,
+      color3: <BsCircleFill className="text-primary" />,
       item_category: "XL M",
       item_variant: "45056406978800",
       imageURL:
@@ -591,6 +754,11 @@ export default function Products() {
     {
       item_id: "8492124078320",
       item_name: "Black Sports Leggings",
+      color2: <BsCircleFill className="text-warning" />,
+      color3: <BsCircleFill className="text-primary" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       price: "899.99",
       item_brand: "Carinawear",
       item_category: "2XL M",
@@ -606,6 +774,9 @@ export default function Products() {
       price: "1299.99",
       item_brand: "Carinawear",
       item_category: "3XL XL",
+      color2: <BsCircleFill className="text-info" />,
+      color3: <BsCircleFill className="text-danger" />,
+      color4: <BsCircleFill className="text-success border rounded" />,
       item_variant: "45053984735472",
       imageURL:
         "https://carinawear.com/cdn/shop/files/55299-46-S-2_grande.jpg?v=1710410979",
@@ -618,6 +789,11 @@ export default function Products() {
       item_name: "Voile Bell Sleeves Blouse",
       price: "499.99",
       item_brand: "Carinawear",
+      // color2: <BsCircleFill className="text-danger" />,
+      color3: <BsCircleFill className="text-black" />,
+      color4: (
+        <BsCircleFill className="text-light border rounded border rounded" />
+      ),
       item_category: "XL M",
       item_variant: "45053984440560",
       imageURL:
@@ -626,21 +802,34 @@ export default function Products() {
     },
   ];
   return (
-    <div className="home text-center info text-light">
+    <div className="home text-center info text-light border rounded">
+      <a
+        className="btnUp d-flex justify-content-center align-items-center"
+        href="#up"
+      >
+        <BsArrowUp id="#up" />
+      </a>
       <div
         className="img-fluid"
         style={{
           width: "100%",
-          backgroundImage: `url(${img3})`,
+          backgroundImage: `url(${img4})`,
           // height: "100vh",
           backgroundPosition: "center center",
           backgroundSize: "100% 100%",
         }}
       >
         <div className="d-flex vh-100 flex-column justify-content-center align-items-center">
-          <h1>Give Your Life A New Flavor</h1>
-          <h2 className="h2-frist">Vanilla Wear</h2>
-          <a href="#more" className="btn-home text-decoration-none">
+          <h1 className="animate__rubberBand animate__animated">
+            Give Your Life A New Flavor
+          </h1>
+          <h2 className="h2-frist animate__flipInX animate__animated my-2">
+            Vanilla Wear
+          </h2>
+          <a
+            href="#more"
+            className="btn-home mt-3 animate__bounce animate__animated text-decoration-none"
+          >
             See more
           </a>
         </div>
@@ -654,7 +843,7 @@ export default function Products() {
               <img src={img1} alt="vanila" className="w-100" />
             </div>
             <div className="col-md-6 ">
-              <h5 className="text-light">
+              <h5 className="text-light border rounded border-0">
                 Vanilla Fashion offers same-day or next-day delivery within our
                 service areas.
               </h5>
@@ -685,14 +874,20 @@ export default function Products() {
                   />
                 </div>
                 <div>
-                  <h4 className="text-black">{val.item_name}</h4>
-                  <h5>
+                  <h6 className="text-black">{val.item_name}</h6>
+                  <h6 className="text-black">
                     <span>L.E </span>
                     {val.price}
-                  </h5>
-                  <h5 className="border w-25 text-center m-auto">
+                  </h6>
+                  <h6 className="border text-black w-25 text-center m-auto">
                     {val.item_category}
-                  </h5>
+                  </h6>
+                  <div className="animate__animated animate__shakeX d-flex justify-content-evenly align-items-center border w-25 m-auto">
+                    <p className="m-0">{val.color1}</p>
+                    <p className="m-0">{val.color2}</p>
+                    <p className="m-0">{val.color3}</p>
+                    <p className="m-0">{val.color4}</p>
+                  </div>
                 </div>
               </div>
             );

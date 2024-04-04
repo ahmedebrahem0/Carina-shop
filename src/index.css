@@ -3,7 +3,20 @@
 * {
   box-sizing: border-box;
 }
-
+.btnUp {
+    background-color: #ff5c97;
+    color: #fff;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid transparent;
+    /* display: none; */
+}
 .containerr {
   /* width: 98% !important; */
   /* margin: auto !important; */

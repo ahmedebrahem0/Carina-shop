@@ -804,7 +804,7 @@ export default function Products() {
   return (
     <div className="home text-center info text-light border rounded">
       <a
-        className="btnUp d-flex justify-content-center align-items-center"
+        className="btnUp d-flex justify-content-center align-items-center "
         href="#up"
       >
         <BsArrowUp id="#up" />

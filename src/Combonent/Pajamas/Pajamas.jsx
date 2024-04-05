@@ -107,7 +107,7 @@ export default function Pajamas() {
         <BsCircleFill className="text-light border rounded border rounded" />
       ),
       thumbnailUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjO4URUv61SDbV6PwWW-bmMNBs_BcZN7oISIHkF4jI8X21Kyv&amp;s",
+        "https://carinawear.com/cdn/shop/products/round-neck-striped-pyjama-set-carina--1_1100x.jpg?v=1710422956",
       thumbnailWidth: 225,
       thumbnailHeight: 225,
       source: "Cotton Sisters",

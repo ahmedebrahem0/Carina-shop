@@ -18,11 +18,20 @@ import Games from "./Combonent/Games/Games.jsx";
 import Boys from "./Combonent/Boys/Boys.jsx";
 import Toys from "./Combonent/Toys/Toys.jsx";
 import Pajamas from './Combonent/Pajamas/Pajamas';
+// import Pajamas from './Combonent/Pajamas/Pajamas';
+import SocksTights from "./Combonent/SocksTights/SocksTights.jsx";
+
+
+
+
+
+
+
 
 export default class App extends Component {
   routers = createBrowserRouter([
     {
-      path: "",
+      path: "/Carina-shop",
       element: <MainLayout />,
       errorElement: <NotFound />,
       children: [
@@ -32,7 +41,8 @@ export default class App extends Component {
         { path: "Footer", element: <Footer /> },
         { path: "products", element: <Products /> },
         { path: "Product", element: <Product /> },
-        { path: "Pajamas", element: <Pajamas/> },
+        { path: "Pajamas", element: <Pajamas /> },
+        { path: "Socks", element: <SocksTights /> },
         {
           path: "Service",
           element: <Service />,

@@ -1,28 +1,8 @@
-// import React, { Component } from "react";
+import React from "react";
+import { BsCircleFill } from "react-icons/bs";
 import "animate.css";
 import { BsArrowUp } from "react-icons/bs";
-// import style from "./Home.module.css"
-// state = {
-//     name:'ahmed'
-// }
-
-//     forceUpdate=()=> {
-//         this.setState({name:'Omr'})
-// }
-
-// constructor() {
-//     super()
-// console.log('this call from constructor');
-// }
-//     componentDidMount() {
-//         console.log('this call from DidMount');
-//     }
-//     componentDidUpdate() {
-//         console.log('this call from DidUpdate');
-
-//     }
-import { BsCircleFill } from "react-icons/bs";
-export default function Home() {
+export default function Pajamas() {
   let api = [
     {
       imageUrl:
@@ -283,7 +263,6 @@ export default function Home() {
       color3: <BsCircleFill className="text-success" />,
     },
   ];
-
   return (
     <>
       <div className="text-center info text-light">
@@ -294,15 +273,15 @@ export default function Home() {
           <BsArrowUp id="#up" />
         </a>
         <div className="container-floud">
-          <h2 className="text-center  py-3">Pajamas</h2>
-          <div className="row m-0 p-0 d-flex justify-content-center align-items-center">
+          <h2 className="text-center  py-3">Socks&Tights</h2>
+          <div className="row row m-0 p-0 d-flex justify-content-center align-items-center">
             {api.map((val, index) => {
               return (
                 <div
-                  className="col-md-3 product-item mx-2 mb-3  p-0  mt-3 shop overflow-hidden"
+                  className="col-md-3 mb-3 product-item mx-2  mt-3 shop overflow-hidden"
                   key={index}
                 >
-                  <div className="animate__fadeInLeft anima animate__animated overflow-hidden mt-3">
+                  <div className="animate__fadeInUp anima animate__animated overflow-hidden  mt-3">
                     <img
                       src={val.imageUrl}
                       alt=""
@@ -311,15 +290,15 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <h6 className="text-dark">{val.source}</h6>
-                    <h6 className="text-dark">
-                      <span className="span">L.E </span>
-                      {val.imageWidth}
+                    <h3>{val.source}</h3>
+                    <h6 className="text-black">
+                      <span>L.E </span>
+                      {val.thumbnailWidth}
                     </h6>
-                    <h6 className="border text-dark w-25 text-center m-auto">
+                    <h6 className="border text-black w-25 text-center m-auto">
                       {val.item_category}
                     </h6>
-                    <div className="animate__animated animate__shakeX d-flex justify-content-evenly align-items-center border w-25 m-auto">
+                    <div className="d-flex justify-content-evenly animate__animated animate__shakeX align-items-center border w-25 m-auto">
                       <p className="m-0">{val.color1}</p>
                       <p className="m-0">{val.color2}</p>
                       <p className="m-0">{val.color3}</p>

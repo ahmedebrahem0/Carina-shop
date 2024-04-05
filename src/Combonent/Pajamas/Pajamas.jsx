@@ -143,12 +143,12 @@ export default function Pajamas() {
     {
       title: "Women's Stretch-Knit Long Sleeve Bamboo Pajama Set",
       imageUrl:
-        "http://cozyearth.com/cdn/shop/files/1__Black_Longsleevepjset_1024x1024.jpg?v=1709653449",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-186_400x.jpg?v=1710412245",
       imageWidth: 768,
       imageHeight: 1024,
       item_category: "XL L",
       thumbnailUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_BlD5Vi51hYaVmcUVyI9BVE4rrU1_brXrU1EKwMTKPkZI3osT&amp;s",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-186_400x.jpg?v=1710412245",
       thumbnailWidth: 194,
       color1: <BsCircleFill className="text-success" />,
       color2: <BsCircleFill className="text-light border rounded" />,
@@ -164,7 +164,7 @@ export default function Pajamas() {
     {
       title: "Women's Super-Soft Shrink-Free Pajama Set, Button-Front",
       imageUrl:
-        "https://cdni.llbean.net/is/image/wim/509347_22_48?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/509347_0_44",
+        "https://carinawear.com/cdn/shop/files/55199-48-S-2_400x.jpg?v=1710410979",
       imageWidth: 950,
       imageHeight: 1095,
       color1: <BsCircleFill className="text-dark" />,
@@ -186,7 +186,7 @@ export default function Pajamas() {
       title:
         "Blue 3D Stripe Long Sleeve Classic Woven Cotton Sateen PJ Set ...",
       imageUrl:
-        "https://bedheadpjs.com/cdn/shop/products/8_BH2921300_044B_BLUE3DSTRIPE_0019_d60cffe3-2cbd-479d-9617-69ac5df610dc_1200x.jpg?v=1650904527",
+        "https://carinawear.com/cdn/shop/files/55173-01-S_5_400x.jpg?v=1710410364",
       imageWidth: 1200,
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -242,7 +242,7 @@ export default function Pajamas() {
           <BsArrowUp id="#up" />
         </a>
         <div className="container-floud">
-          <h2 className="text-center  py-3">Pajamas</h2>
+          <h2 className="text-center  py-3">Tops</h2>
           <div className="row row m-0 p-0 d-flex justify-content-center align-items-center">
             {api.map((val, index) => {
               return (

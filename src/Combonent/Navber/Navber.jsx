@@ -44,11 +44,12 @@ export default function Navber() {
                 SocksTights
               </Link>
             </li>
-            {/* <li className="nav-item">
-                <Link className="nav-link text-light fs-5" to="Service">
-                  Service
-                </Link>
-              </li> */}
+            <li className="nav-item">
+              <Link className="nav-link text-light fs-5" to="Panties">
+                Panties
+              </Link>
+            </li>
+
             {/* <li className="nav-item">
                     <Link className="nav-link text-light fs-5" to="Product">
                       Product

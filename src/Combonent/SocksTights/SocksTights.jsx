@@ -6,9 +6,9 @@ export default function Pajamas() {
   let api = [
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55215-67-S-004_400x.jpg?v=1711355460",
+        "https://carinawear.com/cdn/shop/files/55262-54-S-1_800x.jpg?v=1711961660",
       imageWidth: 999.99,
-      source: "Cinched Chest Pyjama ",
+      source: "Plunge Neck Viscose Nightgown",
       item_category: "XL M",
       color2: <BsCircleFill className="text-warning" />,
       color3: <BsCircleFill className="text-primary" />,
@@ -18,7 +18,7 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55217-64-S_1_400x.jpg?v=1710410870",
+        "https://carinawear.com/cdn/shop/files/55340-99-S-022_400x.jpg?v=1711961752",
       imageWidth: 999.99,
       source: "Nicki Pasqualone",
       item_category: "2XL 3XL ",
@@ -28,7 +28,7 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55315-99-S-009_400x.jpg?v=1711961280",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-097_9795901f-9700-42c2-ab29-ab4016d2bea7_400x.jpg?v=1710413063",
       imageWidth: 999.99,
       source: "Printed Midi Length Robe",
       item_category: "M L",
@@ -39,9 +39,9 @@ export default function Pajamas() {
 
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/short-sleeves-pyjama-pants-set-carina--1-32954535674096_400x.jpg?v=1703607115",
+        "https://carinawear.com/cdn/shop/files/55212-01-S-1_400x.jpg?v=1711961264",
       imageWidth: 1999.99,
-      source: "short Sleeves Pyjama ",
+      source: "Front Criss Cross Nightgown",
       item_category: "3XL XL",
       color1: <BsCircleFill className="text-success" />,
       color2: <BsCircleFill className="text-danger" />,
@@ -49,9 +49,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/purple-long-sleeves-pyjama-set-carina--1-32898636808432_400x.jpg?v=1703607008",
+        "https://carinawear.com/cdn/shop/files/carina20248943_400x.jpg?v=1710666629",
       imageWidth: 999.99,
-      source: "short Sleeves Pyjama ",
+      source: "Voile Printed Pyjama Short",
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,
       color3: <BsCircleFill className="text-primary" />,
@@ -59,9 +59,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/notch-collar-wrapped-pyjama-set-carina--1-32898633466096_400x.jpg?v=1703607008",
+        "https://carinawear.com/cdn/shop/files/carina20248895_ae36cb23-da17-4ecd-88f6-474e7b9adc7a_400x.jpg?v=1710666749",
       imageWidth: 1.999,
-      source: "Notch Collar Wrapped ",
+      source: "Frilled Short Sleeves Nightgown",
       color2: <BsCircleFill className="text-success" />,
       color3: <BsCircleFill className="text-light border rounded" />,
       color4: <BsCircleFill className="text-info border rounded" />,
@@ -69,9 +69,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/plain-plush-pyjama-set-carina--8_400x.jpg?v=1706782304",
+        "https://carinawear.com/cdn/shop/files/carina20248902_400x.jpg?v=1710666652",
       imageWidth: 2.999,
-      source: "Plain Plush Pyjama",
+      source: "Plunge V-Neck Printed Nightgown",
       item_category: "XL M",
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -82,9 +82,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/pyjama-set-with-lace-design-carina--1-32898634678512_400x.jpg?v=1703607008",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-046_400x.jpg?v=1710413101",
       imageWidth: 1.9999,
-      source: "Pyjama with Lace Design",
+      source: "Simple & Delicate Pyjama Set",
       item_category: "S M",
       color1: <BsCircleFill className="text-dark" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -92,9 +92,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/piping-notch-collar-pyjama-set-carina--1_400x.jpg?v=1703608689",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-185_06017a24-62a8-45b4-a87a-ba0c9cb0177e_400x.jpg?v=1710413063",
       imageWidth: 2.0999,
-      source: "Piping Notch Collar ",
+      source: "Square Neck Short Nightgown ",
       item_category: "XL M",
       color1: <BsCircleFill className="text-success" />,
       color2: <BsCircleFill className="text-light border rounded" />,
@@ -102,9 +102,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/viscose-plain-pyjama-set-carina--1_400x.jpg?v=1703608666",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-091_42fd05ee-bd69-4819-86fe-d71807185741_400x.jpg?v=1710413063",
       imageWidth: 1.0999,
-      source: "Viscose Plain Pyjama",
+      source: "Plunge V-Neck Nightgown",
       item_category: "L M",
       color1: <BsCircleFill className="text-warning" />,
       color2: <BsCircleFill className="text-success border rounded" />,
@@ -112,9 +112,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/a-team-printed-pyjama-set-carina--1_400x.jpg?v=1703608368",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-146_f25b130d-6ab5-4b37-a402-1a8757317fad_400x.jpg?v=1710413001",
       imageWidth: 1.2999,
-      source: "A Team Printed Pyjama",
+      source: "Nightgown with Frilled Edges",
       item_category: "S M",
       color1: <BsCircleFill className="text-dark" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -122,9 +122,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/be-happy-printed-pyjama-set-carina--1_400x.jpg?v=1703608338",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-122_eaee8e3b-67b7-401f-8c2f-19b33e7a8bf0_400x.jpg?v=1710412927",
       imageWidth: 1.2,
-      source: "Be Happy Printed Pyjama",
+      source: "Wide Leg Pyjama Pants",
       item_category: "2XL 3XL",
       // color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -135,9 +135,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/pyjama-set-with-colored-stripes-carina--1_400x.jpg?v=1703608338",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-137_dda8d9d5-f5de-4fef-9307-aa0227fe052a_400x.jpg?v=1710412928",
       imageWidth: 1.3,
-      source: "Pyjama with Colored ",
+      source: "Self Print Pyjama Short",
       item_category: "XL L",
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,
@@ -145,9 +145,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/cropped-top-pyjama-set-carina--1-33294983004400_400x.jpg?v=1703607977",
+        "https://carinawear.com/cdn/shop/files/55239-59-S-004_400x.jpg?v=1711366161",
       imageWidth: 1.3,
-      source: "Cropped Top Pyjama",
+      source: "Lilac Piping Pyjama Set",
       item_category: "3XL 2XL",
       color2: <BsCircleFill className="text-warning" />,
       color3: <BsCircleFill className="text-primary" />,
@@ -157,9 +157,9 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/products/glowing-and-glowing-pyjama-set-carina--1-32987762589936_400x.jpg?v=1703607150",
+        "https://carinawear.com/cdn/shop/files/55213-03-S_2_400x.jpg?v=1710410924",
       imageWidth: 88.9999,
-      source: "Printed Short Sleeve ",
+      source: "Satin Drop Shoulder Robe",
       color2: <BsCircleFill className="text-success" />,
       color3: <BsCircleFill className="text-primary" />,
       color4: (
@@ -215,52 +215,13 @@ export default function Pajamas() {
     },
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/elasticated-pyjama-crop-top-carina--1-32679201767664_400x.jpg?v=1703606276",
+        "https://carinawear.com/cdn/shop/files/55217-64-S_1_400x.jpg?v=1710410870",
       imageWidth: 399.99,
       source: "Elasticated Pyjama Crop ",
       item_category: "XL M",
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-light border rounded" />,
       color3: <BsCircleFill className="text-primary" />,
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/slim-leggings-pyjama-set-carina--1-32630410969328_400x.jpg?v=1703606241",
-      imageWidth: 599.999,
-      source: "Slim Leggings Pyjama",
-      item_category: "L S",
-      color1: <BsCircleFill className="text-danger" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-primary" />,
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/zipper-closure-pyjama-jacket-carina--6-32679372980464_400x.jpg?v=1706783263",
-      imageWidth: 999.999,
-      item_category: "XL M",
-      color1: <BsCircleFill className="text-success" />,
-      color2: <BsCircleFill className="text-light border rounded" />,
-      color3: <BsCircleFill className="text-primary" />,
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/products/ribbed-crew-neck-pyjama-set-carina--1-32099632316656_400x.jpg?v=1703604874",
-      imageWidth: 1200.999,
-      source: "Ribbed Crew Neck Pyjama ",
-      color1: <BsCircleFill className="text-danger" />,
-      color2: <BsCircleFill className="text-light border rounded" />,
-      color3: <BsCircleFill className="text-primary" />,
-      item_category: "M L",
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/products/good-vibes-pyjama-set-carina--1-32099406348528_400x.jpg?v=1703604874",
-      imageWidth: 1200.999,
-      source: "Good Vibes Pyjama ",
-      item_category: "2XL 3XL",
-      color1: <BsCircleFill className="text-info" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-success" />,
     },
   ];
   return (
@@ -290,10 +251,10 @@ export default function Pajamas() {
                     />
                   </div>
                   <div>
-                    <h3>{val.source}</h3>
-                    <h6 className="text-black">
+                    <h6 className="text-black">{val.source}</h6>
+                    <h6 className="text-black ">
                       <span>L.E </span>
-                      {val.thumbnailWidth}
+                      {val.imageWidth}
                     </h6>
                     <h6 className="border text-black w-25 text-center m-auto">
                       {val.item_category}

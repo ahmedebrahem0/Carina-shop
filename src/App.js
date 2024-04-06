@@ -20,13 +20,7 @@ import Toys from "./Combonent/Toys/Toys.jsx";
 import Pajamas from './Combonent/Pajamas/Pajamas';
 // import Pajamas from './Combonent/Pajamas/Pajamas';
 import SocksTights from "./Combonent/SocksTights/SocksTights.jsx";
-
-
-
-
-
-
-
+import Panties from './Combonent/Panties/Panties';
 
 export default class App extends Component {
   routers = createBrowserRouter([
@@ -43,11 +37,12 @@ export default class App extends Component {
         { path: "Product", element: <Product /> },
         { path: "Pajamas", element: <Pajamas /> },
         { path: "Socks", element: <SocksTights /> },
+        { path: "Panties", element: <Panties /> },
         {
           path: "Service",
           element: <Service />,
           children: [
-            { index: true, element: <Games /> },
+            // { index: true, element: <Games /> },
             // { path: "Games", element: <Games/> }, // empty in vav ""
             { path: "Boys", element: <Boys /> },
             { path: "Toys", element: <Toys /> },

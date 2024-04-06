@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Boys extends Component {
-  render() {
-    return (
-      <div>Boys</div>
-    )
-  }
+export default function Boys() {
+  return
+  <>
+    Panties
+  </>;
 }

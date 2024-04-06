@@ -26,7 +26,7 @@ export default function Navber() {
             </li>
             <li className="nav-item">
               <Link className="nav-link text-light fs-5" to="About">
-                Sleepwear
+                homewear
               </Link>
             </li>
             <li className="nav-item">
@@ -39,8 +39,8 @@ export default function Navber() {
                 Tops
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link text-light fs-5" to="Socks">
+            <li className="nav-item Link">
+              <Link className="nav-link text-light fs-5 " to="Socks">
                 Bridal Collection
               </Link>
             </li>

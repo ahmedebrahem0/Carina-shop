@@ -80,16 +80,16 @@ export default function Pajamas() {
       //   <BsCircleFill className="text-light border rounded border rounded" />
       // ),
     },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/20240223-20240223-046_400x.jpg?v=1710413101",
-      imageWidth: 1.9999,
-      source: "Simple & Delicate Pyjama Set",
-      item_category: "S M",
-      color1: <BsCircleFill className="text-dark" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-primary" />,
-    },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/20240223-20240223-046_400x.jpg?v=1710413101",
+    //   imageWidth: 1.9999,
+    //   source: "Simple & Delicate Pyjama Set",
+    //   item_category: "S M",
+    //   color1: <BsCircleFill className="text-dark" />,
+    //   color2: <BsCircleFill className="text-warning" />,
+    //   color3: <BsCircleFill className="text-primary" />,
+    // },
     {
       imageUrl:
         "https://carinawear.com/cdn/shop/files/20240223-20240223-185_06017a24-62a8-45b4-a87a-ba0c9cb0177e_400x.jpg?v=1710413063",
@@ -120,29 +120,29 @@ export default function Pajamas() {
       color2: <BsCircleFill className="text-warning" />,
       color3: <BsCircleFill className="text-danger" />,
     },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/20240223-20240223-122_eaee8e3b-67b7-401f-8c2f-19b33e7a8bf0_400x.jpg?v=1710412927",
-      imageWidth: 1.2,
-      source: "Wide Leg Pyjama Pants",
-      item_category: "2XL 3XL",
-      // color1: <BsCircleFill className="text-danger" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-primary" />,
-      color4: (
-        <BsCircleFill className="text-light border rounded border rounded" />
-      ),
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/20240223-20240223-137_dda8d9d5-f5de-4fef-9307-aa0227fe052a_400x.jpg?v=1710412928",
-      imageWidth: 1.3,
-      source: "Self Print Pyjama Short",
-      item_category: "XL L",
-      color1: <BsCircleFill className="text-danger" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-primary" />,
-    },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/20240223-20240223-122_eaee8e3b-67b7-401f-8c2f-19b33e7a8bf0_400x.jpg?v=1710412927",
+    //   imageWidth: 1.2,
+    //   source: "Wide Leg Pyjama Pants",
+    //   item_category: "2XL 3XL",
+    //   // color1: <BsCircleFill className="text-danger" />,
+    //   color2: <BsCircleFill className="text-warning" />,
+    //   color3: <BsCircleFill className="text-primary" />,
+    //   color4: (
+    //     <BsCircleFill className="text-light border rounded border rounded" />
+    //   ),
+    // },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/20240223-20240223-137_dda8d9d5-f5de-4fef-9307-aa0227fe052a_400x.jpg?v=1710412928",
+    //   imageWidth: 1.3,
+    //   source: "Self Print Pyjama Short",
+    //   item_category: "XL L",
+    //   color1: <BsCircleFill className="text-danger" />,
+    //   color2: <BsCircleFill className="text-warning" />,
+    //   color3: <BsCircleFill className="text-primary" />,
+    // },
     {
       imageUrl:
         "https://carinawear.com/cdn/shop/files/55239-59-S-004_400x.jpg?v=1711366161",
@@ -167,18 +167,18 @@ export default function Pajamas() {
       ),
       item_category: "M L",
     },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/v-back-neck-pyjama-set-carina--1-32716554993904_400x.jpg?v=1703606480",
-      imageWidth: 1200.9999,
-      source: "V-Back Neck Pyjama",
-      color2: <BsCircleFill className="text-success" />,
-      color3: <BsCircleFill className="text-primary" />,
-      color4: (
-        <BsCircleFill className="text-danger border rounded border rounded" />
-      ),
-      item_category: "XL M",
-    },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/v-back-neck-pyjama-set-carina--1-32716554993904_400x.jpg?v=1703606480",
+    //   imageWidth: 1200.9999,
+    //   source: "V-Back Neck Pyjama",
+    //   color2: <BsCircleFill className="text-success" />,
+    //   color3: <BsCircleFill className="text-primary" />,
+    //   color4: (
+    //     <BsCircleFill className="text-danger border rounded border rounded" />
+    //   ),
+    //   item_category: "XL M",
+    // },
     {
       imageUrl:
         "https://carinawear.com/cdn/shop/files/spaghetti-straps-lace-pyjama-set-carina--1-32646822035696_400x.jpg?v=1703606295",
@@ -193,26 +193,26 @@ export default function Pajamas() {
         <BsCircleFill className="text-light border rounded border rounded" />
       ),
     },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/sleeveless-cami-pyjama-top-carina--6-32647464812784_400x.jpg?v=1706783314",
-      imageWidth: 1200.9999,
-      source: "Sleeveless Cami Pyjama ",
-      item_category: "2XL 3XL",
-      color1: <BsCircleFill className="text-dark" />,
-      color2: <BsCircleFill className="text-light border rounded" />,
-      color3: <BsCircleFill className="text-danger" />,
-    },
-    {
-      imageUrl:
-        "https://carinawear.com/cdn/shop/files/solid-pyjama-jumpsuit-carina--1-32647452033264_400x.jpg?v=1703606276",
-      imageWidth: 1800.9999,
-      source: "Solid Pyjama Jumpsuit",
-      item_category: "3XL 2XL ",
-      color1: <BsCircleFill className="text-danger" />,
-      color2: <BsCircleFill className="text-warning" />,
-      color3: <BsCircleFill className="text-primary" />,
-    },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/sleeveless-cami-pyjama-top-carina--6-32647464812784_400x.jpg?v=1706783314",
+    //   imageWidth: 1200.9999,
+    //   source: "Sleeveless Cami Pyjama ",
+    //   item_category: "2XL 3XL",
+    //   color1: <BsCircleFill className="text-dark" />,
+    //   color2: <BsCircleFill className="text-light border rounded" />,
+    //   color3: <BsCircleFill className="text-danger" />,
+    // },
+    // {
+    //   imageUrl:
+    //     "https://carinawear.com/cdn/shop/files/solid-pyjama-jumpsuit-carina--1-32647452033264_400x.jpg?v=1703606276",
+    //   imageWidth: 1800.9999,
+    //   source: "Solid Pyjama Jumpsuit",
+    //   item_category: "3XL 2XL ",
+    //   color1: <BsCircleFill className="text-danger" />,
+    //   color2: <BsCircleFill className="text-warning" />,
+    //   color3: <BsCircleFill className="text-primary" />,
+    // },
     {
       imageUrl:
         "https://carinawear.com/cdn/shop/files/55217-64-S_1_400x.jpg?v=1710410870",

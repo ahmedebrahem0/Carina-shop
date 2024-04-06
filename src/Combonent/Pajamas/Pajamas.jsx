@@ -19,7 +19,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9zZNOcbQjaX8MP5MBs8y0RtGm4-aShmHuPpc9u1xWNtfmrc&amp;s",
       thumbnailWidth: 183,
       thumbnailHeight: 275,
-      source: "Buck & Buck",
+      source: "Tie Sleeve Lounge Top",
       domain: "www.buckandbuck.com",
       link: "https://www.buckandbuck.com/womens-flannel-pajamas.html",
       googleUrl:
@@ -43,7 +43,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1BZNH2E88jWzlUEPr7FI8ehrUMwd-ztnnWbgFQcqxXW5iVbE&amp;s",
       thumbnailWidth: 183,
       thumbnailHeight: 275,
-      source: "Buck & Buck",
+      source: "Color Blocked Top",
       domain: "www.buckandbuck.com",
       link: "https://www.buckandbuck.com/mens-cotton-poly-pajamas-velcro-front.html",
       googleUrl:
@@ -64,7 +64,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHN8LbIymDk-sD5cpoHB8dNh0FhF3TgO4X01EZjDrLcSkkHLId&amp;s",
       thumbnailWidth: 202,
       thumbnailHeight: 249,
-      source: "Hanna Andersson",
+      source: "Love Print Lounge Top",
       domain: "www.hannaandersson.com",
       link: "https://www.hannaandersson.com/pajamas-kids-long-johns/47058-FU8.html",
       googleUrl:
@@ -87,7 +87,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrTq2nSO88larJ_vntR0LhEunWOvIbmz2ZHoKV10CEzQ5x3LA&amp;s",
       thumbnailWidth: 212,
       thumbnailHeight: 238,
-      source: "Little Blue House",
+      source: "Asymmetrical Top",
       domain: "www.littlebluehouse.com",
       link: "https://www.littlebluehouse.com/us_en/products/woofing-christmas-family-pajamas-2",
       googleUrl:
@@ -110,7 +110,7 @@ export default function Pajamas() {
         "https://carinawear.com/cdn/shop/products/round-neck-striped-pyjama-set-carina--1_1100x.jpg?v=1710422956",
       thumbnailWidth: 225,
       thumbnailHeight: 225,
-      source: "Cotton Sisters",
+      source: "Hooded Plain Top",
       domain: "www.cottonsisters.com",
       link: "https://www.cottonsisters.com/products/personalized-plaid-christmas-pajamas-kids",
       googleUrl:
@@ -133,7 +133,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHAMhEzVPaZFLZ1CIAiKR8VgKqyJxk6O6BnBk-lmTW5VTmDU&amp;s",
       thumbnailWidth: 225,
       thumbnailHeight: 225,
-      source: "Cotton Sisters",
+      source: "Relaxed Fit Lounge Top",
       domain: "www.cottonsisters.com",
       link: "https://www.cottonsisters.com/products/personalized-buffalo-plaid-christmas-pajamas-kids",
       googleUrl:
@@ -175,7 +175,7 @@ export default function Pajamas() {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNemd-vy-_gBiDQLGUAEV7QlQEJFETRqYOLPJXBJmWKJFh9jg&amp;s",
       thumbnailWidth: 209,
       thumbnailHeight: 241,
-      source: "L.L.Bean",
+      source: "Tencel Plain Top",
       domain: "www.llbean.com",
       link: "https://www.llbean.com/llb/shop/123892?page=womens-super-soft-shrink-free-pajama-set-button-front",
       googleUrl:

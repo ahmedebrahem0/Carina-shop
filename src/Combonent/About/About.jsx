@@ -234,7 +234,7 @@ export default function Products() {
         <BsArrowUp id="#up" />
       </a>
       <div className="container-floud">
-        <h2 className="text-center py-3">Sleepwear</h2>
+        <h2 className="text-center py-3">homewear</h2>
         <div className="row m-0 p-0 d-flex justify-content-center align-items-center">
           {api.map((val, index) => {
             return (

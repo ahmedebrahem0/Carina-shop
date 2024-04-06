@@ -30,7 +30,7 @@ export default function Pajamas() {
       title:
         "Men's Cotton/Poly Pajamas-VELCRO® Brand fastener Front Adaptive ...",
       imageUrl:
-        "https://carinawear.com/cdn/shop/products/round-neck-striped-pyjama-set-carina--1_800x.jpg?v=1710422956",
+        "https://cdn.shopify.com/s/files/1/0616/1298/2512/products/long-sleeve-sports-top-carina--2_400x.jpg?v=1710420382",
       imageWidth: 800,
       item_category: "2XL L",
       color2: <BsCircleFill className="text-warning" />,
@@ -186,7 +186,7 @@ export default function Pajamas() {
       title:
         "Blue 3D Stripe Long Sleeve Classic Woven Cotton Sateen PJ Set ...",
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55173-01-S_5_400x.jpg?v=1710410364",
+        "https://cdn.shopify.com/s/files/1/0616/1298/2512/products/zebra-print-crop-top-carina--1-31982213529840_400x.jpg?v=1703604569",
       imageWidth: 1200,
       color1: <BsCircleFill className="text-danger" />,
       color2: <BsCircleFill className="text-warning" />,

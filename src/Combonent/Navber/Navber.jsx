@@ -41,7 +41,7 @@ export default function Navber() {
             </li>
             <li className="nav-item">
               <Link className="nav-link text-light fs-5" to="Socks">
-                SocksTights
+                Bridal Collection
               </Link>
             </li>
             <li className="nav-item">

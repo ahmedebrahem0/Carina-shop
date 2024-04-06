@@ -25,7 +25,7 @@ import Panties from './Combonent/Panties/Panties';
 export default class App extends Component {
   routers = createBrowserRouter([
     {
-      path: "/vanilla",
+      path: "/Carina-shop",
       element: <MainLayout />,
       errorElement: <NotFound />,
       children: [

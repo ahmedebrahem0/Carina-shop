@@ -26,7 +26,7 @@ export default function Home() {
   let api = [
     {
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55215-67-S-004_400x.jpg?v=1711355460",
+        "https://carinawear.com/cdn/shop/files/square-back-pyjama-set-carina--6-32743975747824_400x.jpg?v=1706801632",
       imageWidth: 999.99,
       source: "Cinched Chest Pyjama ",
       item_category: "XL M",

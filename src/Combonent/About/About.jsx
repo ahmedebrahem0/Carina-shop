@@ -7,7 +7,8 @@ export default function Products() {
     {
       title:
         "Sleepwear,Women Sleepwear Lace See Through Nightgowns Set Women Lingerie  Evening Wear Deep V Bathrobe Young Girl Sl",
-      imageUrl: "https://m.media-amazon.com/images/I/61e6hP4BbYL.jpg",
+      imageUrl:
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-047_91f0b7de-cef7-4990-8519-acf1bd5d555f_400x.jpg?v=1710413275",
       imageWidth: 1000,
       imageHeight: "XL L",
       color2: <BsCircleFill className="text-warning" />,
@@ -114,7 +115,7 @@ export default function Products() {
     {
       title: "Pin on Spring Fashion",
       imageUrl:
-        "https://carinawear.com/cdn/shop/files/55378-99-S-1_400x.jpg?v=1711367515",
+        "https://carinawear.com/cdn/shop/files/20240223-20240223-080_ae469cf2-2398-42ec-b0d3-2b6571ff6e42_400x.jpg?v=1710842011",
       imageWidth: 608,
       imageHeight: "2XL 3XL",
       color2: <BsCircleFill className="text-warning" />,
